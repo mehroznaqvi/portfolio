@@ -1506,31 +1506,27 @@
           <h4 class="mt-10 source-font">Say Hello!</h4>
         </div>
       </div>
-      <div class="row mt-50">
-        <div class="col-sm-12 col-md-offset-2 col-md-8">
-          <form name="contact-form" class="contact-me" id="contact-form" action="" method="POST">
-            <div class="messages"></div>
-            <div class="form-group">
-              <label class="sr-only" for="name">Name</label>
-              <input type="text" name="name" class="form-control" id="name" required="required" placeholder="Your Name" data-error="Your Name is Required">
-              <div class="help-block with-errors mt-20"></div>
+      <!--=== Tabs Icon Start ======-->
+          <div class="icon-tabs">
+            <!--=== Nav tabs ===-->
+            <ul class="nav nav-tabs text-center" role="tablist">
+              <li role="presentation" class="active"><a href="#email" role="tab" data-toggle="tab"><i class="mdi mdi-email"></i> Email</a></li>
+              <li role="presentation"><a href="#mobile-no" role="tab" data-toggle="tab"><i class="mdi mdi-cellphone-iphone"></i> Mobile</a></li>
+            </ul>
+            <!--=== Tab panes ===-->
+            <div class="tab-content text-center">
+              <div role="tabpanel" class="tab-pane fade in active" id="email">
+                <p>mehrozali1990@gmail.com</p>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="mobile-no">
+                <p>+92 308 821 7774</p>
+              </div>              
             </div>
-            <div class="form-group">
-              <label class="sr-only" for="email">Email</label>
-              <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="required" data-error="Please Enter Valid Email">
-              <div class="help-block with-errors mt-20"></div>
-            </div>
-            <div class="form-group">
-              <label class="sr-only" for="message">Message</label>
-              <textarea name="message" class="form-control" id="message" rows="7" placeholder="Your Message" required data-error="Please, Leave us a message"></textarea>
-              <div class="help-block with-errors mt-20"></div>
-            </div>
-            <p class="text-center">
-              <button type="submit" name="submit" class="btn btn-color btn-circle">Send Request <i class="mdi mdi-email"></i></button>
-            </p>
-          </form>
-        </div>
+          </div>
       </div>
+    </div>
+  <!--=== Tabs Icon End ======-->
+
     </div>
   </section>
   <!--=== Contact Us End ======-->
